@@ -10,9 +10,9 @@ Programming Assignment 3×3 Matrix Determinant Solver - 37
 └                ┘
 
 cd assignment-01
-javac DeterminantSolver.java
-java DeterminantSolver
-node determinant_solver.js
+javac DeterminantSolver.java,
+java DeterminantSolver,
+node determinant_solver.js,
 ------------JAVA------------------
 ====================================================
   ?  DETERMINANT = -93
