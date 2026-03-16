@@ -4,7 +4,7 @@
  * Course          : Math 101 — Linear Algebra
  * Assignment      : Programming Assignment 1 — 3x3 Matrix Determinant Solver
  * School          : University of Perpetual Help System DALTA, Molino Campus
- * Date            : [DATE COMPLETED]
+ * Date            : march 16, 2026
  * GitHub Repo     : https://github.com/Prosphyte/uphsd-cs-Villena-JohnKenneth
  * Runtime         : Node.js (run with: node determinant_solver.js)
  *
@@ -18,9 +18,9 @@
 
 // hardcoded 3x3 matrix in a multidimensional array.
 const matrix = [
-    [[1], [4], [6]],   // Row 1
-    [[3], [5], [2]],   // Row 2
-    [[4], [1], [3]]    // Row 3
+    [1, 4, 6],   // Row 1
+    [3, 5, 2],   // Row 2
+    [4, 1, 3]    // Row 3
 ];
 
 // border for matrix display
@@ -46,7 +46,7 @@ function solveDeterminant(m) {
     // Print problem header
     console.log(line);
     console.log("  3x3 MATRIX DETERMINANT SOLVER");
-    console.log("  Student: [YOUR FULL NAME]");
+    console.log("  Student: Villena, John Kenneth M.");
     console.log("  Assigned Matrix:");
     console.log(line);
     printMatrix(m);
